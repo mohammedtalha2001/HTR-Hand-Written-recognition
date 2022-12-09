@@ -2,7 +2,11 @@ import cv2
 import pytesseract
 
 pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+<<<<<<< HEAD
 img = cv2.imread('img.png')
+=======
+img = cv2.imread('writing.png')
+>>>>>>> 1702b70 (Initial commit)
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 # ##DETECTION TEXT
